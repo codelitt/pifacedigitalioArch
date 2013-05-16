@@ -8,6 +8,9 @@ then
 	exit 1
 fi
 
+#installs python3
+pacman -S python
+
 # depends on pifacecommon
 python3 -c "import pifacecommon" # is it installed?
 if [ $? -ne 0 ]
