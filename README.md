@@ -10,6 +10,8 @@ Installation from bare Arch Linux Arm
 
     $ ./install.sh
 
+Install script will ask you if you want to install dependency packages 3 times. Select "y" and hit enter for each.
+
 If gpio-admin was installed then make sure to log out and then back in again.
 
 Examples
