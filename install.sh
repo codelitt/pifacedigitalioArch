@@ -11,6 +11,12 @@ fi
 #installs python3
 pacman -S python
 
+#installs make
+pacman -S make
+
+#installs gcc dependency for make
+pacman -S gcc
+
 # depends on pifacecommon
 python3 -c "import pifacecommon" # is it installed?
 if [ $? -ne 0 ]

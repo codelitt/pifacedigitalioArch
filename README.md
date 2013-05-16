@@ -1,13 +1,14 @@
-pifacedigitalio
+pifacedigitalioArch
 ===============
 
-The PiFace Digital Input/Output module.
+The PiFace Digital Input/Output module for Arch Linux ARM.
 
 *The PiFace Digital IO module uses Python 3 and is incompatible with Python 2*
 
-Installation
+Installation from bare Arch Linux Arm
 ============
-    $ sudo ./install.sh
+
+    $ ./install.sh
 
 If gpio-admin was installed then make sure to log out and then back in again.
 
