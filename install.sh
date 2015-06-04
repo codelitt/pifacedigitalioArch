@@ -9,13 +9,13 @@ then
 fi
 
 #installs python3
-pacman -S python
+pacman -S --needed python
 
 #installs make
-pacman -S make
+pacman -S --needed make
 
 #installs gcc dependency for make
-pacman -S gcc
+pacman -S --needed gcc
 
 # depends on pifacecommon
 python3 -c "import pifacecommon" # is it installed?
